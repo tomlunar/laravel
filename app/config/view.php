@@ -17,6 +17,19 @@ return array(
 
 	/*
 	|--------------------------------------------------------------------------
+	| Cache Storage Path
+	|--------------------------------------------------------------------------
+	|
+	| The view compiler engine uses this path as a cache to store the compiled
+	| views. A compiled view is served from this cache as long as its source
+	| is not newer than it. If needed, you can specify another path here.
+	|
+	*/
+
+	'cache' => storage_path().'/views',
+
+	/*
+	|--------------------------------------------------------------------------
 	| Pagination View
 	|--------------------------------------------------------------------------
 	|
